@@ -4,7 +4,7 @@ set -o errexit
 
 echo "===> START.SH IS RUNNING <==="
 
-python tabbycat/run-asgi.py
+PYTHONPATH=. python tabbycat/run-asgi.py
 
 python manage.py collectstatic --noinput
 python manage.py migrate --noinput
