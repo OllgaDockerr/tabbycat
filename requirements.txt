@@ -3,3 +3,4 @@ daphne==4.1.0
 psycopg2-binary==2.9.6
 channels==4.0
 split-settings
+django-jet
