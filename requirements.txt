@@ -27,7 +27,6 @@ networkx
 django-dynamic-preferences>=1.10.0
 django-gfklookupwidget
 django-formtools
-statici18n
 django-polymorphic
 django-cors-headers
 djangorestframework
