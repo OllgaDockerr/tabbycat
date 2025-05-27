@@ -24,3 +24,4 @@ daphne>=4.0.0
 django-jet>=1.0.8
 munkres
 networkx
+django-dynamic-preferences>=1.10.0
