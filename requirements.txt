@@ -34,3 +34,4 @@ drf-spectacular
 django-better-admin-arrayfield
 whitenoise
 psycopg2-binary
+django-statici18n
