@@ -7,7 +7,10 @@
 import logging
 import os
 import sys
+import django
 
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tabbycat.settings")
+django.setup()
 root = logging.getLogger()
 root.setLevel(logging.DEBUG)
 ch = logging.StreamHandler(sys.stdout)
