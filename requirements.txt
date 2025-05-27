@@ -25,13 +25,6 @@ django-jet>=1.0.8
 munkres
 networkx
 django-dynamic-preferences>=1.10.0
-Django>=3.2
-daphne
-channels
-django-jet
-django-summernote
-dynamic-preferences
-django-extensions
 django-gfklookupwidget
 django-formtools
 statici18n
@@ -41,6 +34,4 @@ djangorestframework
 drf-spectacular
 django-better-admin-arrayfield
 whitenoise
-networkx
-munkres
 psycopg2-binary
