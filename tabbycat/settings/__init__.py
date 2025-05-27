@@ -4,7 +4,6 @@ import sys
 
 from split_settings.tools import optional, include
 
-
 root = logging.getLogger()
 root.setLevel(logging.DEBUG)
 ch = logging.StreamHandler(sys.stdout)
@@ -34,7 +33,7 @@ elif os.environ.get('ON_RENDER', ''):
     base_settings.append('render.py')
     root.info('SPLIT_SETTINGS: imported render.py')
 else:
-     base_settings.append(optional('local.py'))
+    base_settings.append(optional('local.py'))
     if os.environ.get('LOCAL_DEVELOPMENT', ''):
         base_settings.append('development.py')
         root.info('SPLIT_SETTINGS: imported local.py & development.py')
