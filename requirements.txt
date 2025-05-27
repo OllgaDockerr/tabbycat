@@ -1,1 +1,4 @@
-buildCommand: cd tabbycat && pip install -r requirements.txt
+Django==4.2.3
+gunicorn==20.1.0
+psycopg2-binary==2.9.6
+...
