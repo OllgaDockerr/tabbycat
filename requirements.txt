@@ -35,3 +35,4 @@ django-better-admin-arrayfield
 whitenoise
 psycopg2-binary
 django-statici18n
+django-jet-reboot
