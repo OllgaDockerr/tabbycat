@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+chmod +x ./start.sh
+
 # exit on error
 set -o errexit
 
