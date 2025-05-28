@@ -39,3 +39,4 @@ django-jet-reboot
 django-ipware>=5.0
 html2text
 defusedxml
+drf-link-header-pagination
