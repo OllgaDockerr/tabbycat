@@ -36,3 +36,4 @@ whitenoise
 psycopg2-binary
 django-statici18n
 django-jet-reboot
+django-ipware>=5.0
