@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 import sys
-import Django
+import django
 
 if __name__ == '__main__':
 
