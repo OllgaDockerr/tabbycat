@@ -38,3 +38,4 @@ django-statici18n
 django-jet-reboot
 django-ipware>=5.0
 html2text
+defusedxml
