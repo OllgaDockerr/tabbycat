@@ -41,6 +41,3 @@ html2text
 defusedxml
 drf-link-header-pagination
 qrcode[pil]
-weasyprint==52.5
-whitenoise==6.6.0
-zopfli==0.2.2
