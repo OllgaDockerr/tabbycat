@@ -3,8 +3,6 @@
 set -o errexit
 chmod +x ./start.sh
 echo "-----> Install dependencies"
-python -m pip install pipenv
-pipenv install --system
 pip install -r requirements.txt && python manage.py collectstatic --noinput
 
 echo "-----> I'm post-compile hook"
