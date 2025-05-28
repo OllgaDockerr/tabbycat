@@ -5,6 +5,7 @@ chmod +x ./start.sh
 echo "-----> Install dependencies"
 python -m pip install pipenv
 pipenv install --system
+pip install -r requirements.txt
 
 echo "-----> I'm post-compile hook"
 cd ./tabbycat/
