@@ -10,10 +10,11 @@ services:
     env: python
     plan: free
     region: oregon
-    buildCommand: "./bin/render-compile.sh"
-    startCommand: "PYTHONPATH=src python src/tabbycat/run-asgi.py"
+    buildCommand: "./start.sh"
+    startCommand: "PYTHONPATH=. python manage.py runserver 0.0.0.0:8000"
     envVars:
-      - key: DATABASE_URL
+      - key: DJANGO_SETTINGS_MODULE
+        value: tabbycat.settings  
         fromDatabase:
           name: tabbycat_database
           property: connectionString
