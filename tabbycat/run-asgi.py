@@ -5,7 +5,7 @@ import os
 import sys
 import django
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tabbycat.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tabbycat.settings.render")
 django.setup()
 
 root = logging.getLogger()
