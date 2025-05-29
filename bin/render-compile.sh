@@ -2,7 +2,6 @@
 set -o errexit
 
 echo "-----> Install dependencies"
-pip install --upgrade pip
 pip install -r requirements.txt
 
 echo "-----> Running static files collection"
